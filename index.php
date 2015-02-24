@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 		<head>
-				<title>Personal Web Site</title>
+				<title>King's Creations</title>
 		</head>
 		<body>
-			<p>This is my personal web site. It is going to be awesome in 8 weeks!</p>
+			<div class="class=container">
+				<div class="row">
+					<div class="jumbotron" id="welcome">
+						<h1>Jason King</h1>
+					</div> <!-- end jumbotron-->
+					<div class="row" id="phrase">
+						<!--html-->
+						<h2>Owner, Creator, and Founder of King's Creations</br>
+						   My friends just call me <em>Grand Poobah</em></h2>
+						<!--	href to next page-->
+
+					</div> <!--end phrase-->
+			</div><!-- end container-->
 		</body>
 </html>
