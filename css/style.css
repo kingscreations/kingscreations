@@ -18,7 +18,12 @@ footer {
 	width: 100%;
 	border-top: 1px solid black;
 }
+.jumbotron {
+	positon: relative;
+	padding: 1em;
+	border: 2px black;
 
+}
 footer,
 #main-menu {
 	background-color: black;
