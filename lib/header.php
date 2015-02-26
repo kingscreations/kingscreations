@@ -12,17 +12,13 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 		<!-- Custom CSS -->
-		<link type="text/css" href="css/style.css" rel="stylesheet"/>
-
+		<link type="text/css" href="../css/style.css" rel="stylesheet"/>
 		<!-- stellar.js plugin -->
-		<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-
-		<!-- Custom JS/jQuery -->
-		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<title>King's Creations</title>
 	</head>
 	<header>
@@ -35,14 +31,13 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">CNM Farm Parking 2 U</a>
-				</div>
+				</div><!--end navbar-header-->
 				<div class="collapse navbar-collapse" id="navbar-collapsed">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-						<li><a href="#about">About</a></li>
+						<li><a href="#about-me">About</a></li>
+						<li><a href="#q-and-a">Q and A</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
-				</div>
-			</div>
+				</div><!--end navbar-collapse-->
+			</div><!--end container-->
 	</header>

@@ -1,0 +1,177 @@
+/********************************************
+* basic html styling
+********************************************/
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin: 0 0 100px;
+	background-color: whitesmoke;
+}
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	min-height: 100px;
+	width: 100%;
+	border-top: 1px solid black;
+}
+
+footer,
+#main-menu {
+	background-color: black;
+	color: white;
+}
+
+.container-fluid {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+#main-menu {
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.white-container {
+	background-color: white;
+	border-radius: 10px;
+	padding: 2em;
+}
+
+/**
+ * form
+ */
+input[type=text] {
+	padding: 0.3em;
+	padding-left: 1em;
+	border: 2px solid lightgray;
+	border-radius: 12px;
+}
+
+input[type=text]:focus {
+	outline: none;
+}
+
+
+/**
+ *	bootstrap elements setup
+ */
+
+
+li[role=presentation] a:hover,
+li[role=presentation] a:visited,
+li[role=presentation] a:active,
+li[role=presentation] a:focus,
+li[role=presentation].open a {
+	background-color: transparent !important;
+}
+
+#my-account-dropdown-menu {
+	background-color: darkgrey;
+}
+
+
+/********************************************
+* thumbnails
+********************************************/
+.tiny-thumbnail,
+.thumbnail img{
+	width: 50px !important;
+	height: 50px !important;
+}
+
+@media screen and (min-width: 768px) {
+	.tiny-thumbnail,
+	.thumbnail img {
+		width: 80px;
+		height: 60px;
+	}
+}
+
+.thumbnail-links li {
+	display: inline-block;
+	margin-left: 1em;
+	float: right;
+}
+
+.thumbnail {
+	display: inline-block;
+}
+
+.product-quantity {
+	max-width: 80px;
+}
+
+/**
+ * top main-menu
+ */
+#main-menu ul.nav.nav-pills > li {
+	float: right;
+}
+
+/*
+ * utilities classes
+ */
+.no-margin {
+	margin: 0 !important;
+}
+
+.vertical-spacer-60 {
+	margin-top: 60px;
+}
+
+.no-padding-right {
+	padding-right: 0;
+}
+
+.push-right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.disable-color {
+	color: #e5e5e5;
+	border-color: #e5e5e5 !important;
+}
+
+/********************************************
+* Headings
+********************************************/
+h2 {
+	padding: 10px 0;
+}
+
+h1 {
+	font-size: 1.4em;
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	font-size: 1.6em;
+}
+
+
+/**
+ * Horizontal thumbnail
+ */
+#wrapper {
+	position: relative;
+	z-index: 1;
+	overflow: scroll;
+}
+
+
+
+
+
+
+
