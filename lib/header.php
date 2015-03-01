@@ -16,9 +16,12 @@
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 		<!-- Custom CSS -->
 		<link type="text/css" href="../css/style.css" rel="stylesheet"/>
+		<meta name="viewport" content="width=device-width, initial scale=1">
 		<!-- stellar.js plugin -->
 		<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<script src="js/myscript.js"></script
+
 		<title>King's Creations</title>
 	</head>
 	<header>
