@@ -59,20 +59,20 @@
 				<div class="container-fluid">
 					<h2 id="workHistory">History</h2>
 					<div class="row">
-						<div class="workPicture col-lg-4">
+						<div class="workPicture col-lg-8">
 							<div class="row">
 								<div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-									<img class="img-circle" src="images/jetFighter.jpg" alt="Photo of a Jet Fighter">
+									<img class="img-circle" src="images/woodshop.jpg" alt="Photo of a woodshop">
 								</div><!-- photo -->
 								<div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-									<h3>US Air Force</h3>
-									<p>I was in the Air Force. A long long time ago. In fact, it was before they had invented air planes. We used to run around the air strip pretending we were flying. It was great fun.</p>
+									<h3>King's Creations Fine Furniture and Construction</h3>
+									<p>For a very long time I made furniture and fixed houses. Not sure why they are grouped together. Most carpenters wouldn't know how to start a bandsaw, much less keep all 11 fingers.</p>
 								</div><!-- info -->
 							</div> <!-- inner row -->
 						</div> <!-- workPicture -->
 					</div><!-- outer row -->
 					<div class="row">
-						<div class="workPicture col-lg-4">
+						<div class="workPicture col-lg-8">
 							<div class="row">
 								<div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
 									<img class="img-circle" src="images/warehouse.jpg" alt="Photo of a warehouse">
@@ -83,49 +83,80 @@
 								</div><!-- info -->
 							</div> <!-- inner row -->
 						</div> <!-- workPicture -->
-						<div class="row">
-							<div class="workPicture col-lg-4">
-								<div class="row">
-									<div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
-										<img class="img-circle" src="images/woodshop.jpg" alt="Photo of a woodshop">
-									</div><!-- photo -->
-									<div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-										<h3>King's Creations Fine Furniture and Construction</h3>
-										<p>For a very long time I made furniture and fixed houses. Not sure why they are grouped together. Most carpenters wouldn't know how to start a bandsaw, much less keep all 11 fingers.</p>
-									</div><!-- info -->
-								</div> <!-- inner row -->
-							</div> <!-- workPicture -->
-						</div><!-- outer row -->
-					</div><!-- container -->
-				</div><!-- history page -->
-
-				<div class="page" id="qAndA">
-					<div class="container-fluid">
-						<h2>Q and A</h2>
-						<div class="row">
-							<article class="service col-md-4 col-sm-6 col-xs-12">
-								<img class="icon" src="images/questionMark.png" alt="Icon">
-								<blockquote class="col-sm-12" id="q1">
-									<div class="question">
-										<span class="question">great big question. very deep...philosophical perhaps?</span>
-										<span class="answer">pause for consideration. nod. strike an intellectual pose. Maybe have an old fashioned pipe and a really cool hat. say: blah, blah, blah, pause for emphasis...blah. Repeat as needed.</span>
-									</div>
-								</blockquote>
-
-						</div>
-					</div><!-- container -->
-				</div><!-- Q and A page -->
-			</div><!-- main -->
-
-			<footer>
-				<div class="content container-fluid">
+					</div> <!-- outer row-->
 					<div class="row">
-						<div class="col-sm-6">
-							<p>Contact me at <span class="phone">719-696-1772</span></p>
-							<p> or email me at <span class="email">jason@kingscreations.org</span></p>
-						</div><!-- col-sm-6 -->
-					</div><!-- row -->
-				</div><!-- content container -->
-			</footer>
+						<div class="workPicture col-lg-8">
+							<div class="row">
+								<div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+									<img class="img-circle" src="images/jetFighter.jpg" alt="Photo of a Jet Fighter">
+								</div><!-- photo -->
+								<div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
+									<h3>US Air Force</h3>
+									<p>I was in the Air Force. A long long time ago. In fact, it was before they had invented air planes. We used to run around the air strip pretending we were flying. It was great fun.</p>
+								</div><!-- info -->
+
+							</div> <!-- inner row -->
+						</div> <!-- workPicture -->
+					</div><!-- outer row -->
+				</div><!-- container -->
+			</div><!-- history page -->
+
+			<div class="page" id="qAndA">
+				<div class="container-fluid">
+					<h2>Q and A</h2>
+					<div class="row">
+						<blockquote class="col-sm-12" id="q1">
+							<div class="quote">
+								<span class="question">great big question. very deep...philosophical perhaps?</span>
+								<span class="answer">pause for consideration. nod. strike an intellectual pose. Maybe have an old fashioned pipe and a really cool hat. say: blah, blah, blah, pause for emphasis...blah. Repeat as needed.</span>
+							</div>
+						</blockquote>
+					</div>
+					<div class="row">
+						<blockquote class="col-sm-12" id="q2">
+							<div class="quote">
+								<span class="question">Why choose Web Development as a career?</span>
+								<span class="answer">I chose full stack development for two main reasons: I am attracted to front end because it opens new doors of creative possibilities. My attraction to back end is based in a love of logic and problem solving. And quite honestly, money!</span>
+							</div>
+						</blockquote>
+					</div>
+					<div class="row">
+						<blockquote class="col-sm-12" id="q3">
+							<div class="quote">
+								<span class="question">What are your most attractive attributes as a potential employee?</span>
+								<span class="answer">My 11 years of military taught me teamwork, integrity, and leadership. My 15 years of construction have left me with a strong work ethic, customer service, and a commitment to quality. After 16 years of woodworking I have gained in humility, creativity, and a care for detail. My time with Symphony seed paper has given me the opportunity to put my leadership training and experience to use-improving an existing business in our community. </span>
+							</div>
+						</blockquote>
+					</div>
+					<div class="row">
+						<blockquote class="col-sm-12" id="q4">
+							<div class="quote">
+								<span class="question">What is the main thing you've learned at Deep Dive Coders Bootcamp?</span>
+								<span class="answer">Star Trek is the greatest! and Arlo is a cat (I think.) </span>
+							</div>
+						</blockquote>
+					</div>
+					<div class="row">
+						<blockquote class="col-sm-12" id="q5">
+							<div class="quote">
+								<span class="question">What is the Meaning of life?</span>
+								<span class="answer">say "hmmm..." drag it out, maybe raise an eyebrow and stare into distance. Take out your pipe with left hand and remove glasses dramaticaly with your right. Tilt your head to the side, and in a deep voice say "peanut butter". or maybe "purple cows fly fast on Tuesday. Your choice.</span>
+							</div>
+						</blockquote>
+					</div>
+				</div><!-- container -->
+			</div><!-- Q and A page -->
+		</div><!-- main -->
+
+		<footer>
+			<div class="content container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<p>Contact me at <span class="phone">719-696-1772</span></p>
+						<p> or email me at <span class="email">jason@kingscreations.org</span></p>
+					</div><!-- col-sm-6 -->
+				</div><!-- row -->
+			</div><!-- content container -->
+		</footer>
 	</body>
 </html>

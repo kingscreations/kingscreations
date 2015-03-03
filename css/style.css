@@ -102,7 +102,11 @@ header .inbody .navbar-brand span.subhead {
 .jumbotron {
 	text-align: center;
 	font-family: "Roboto Slab", sans-serif;
-	margin-top: 90px;
+	margin-top: 70px;
+	color: #481206;
+	background-color: #EEF08A;
+	border-style: solid;
+	border-width: medium;
 }
 
 
@@ -132,9 +136,14 @@ header .inbody .navbar-brand span.subhead {
 
 #history img.icon {
 	display: block;
-	width: 80px;
+	width: 50px;
 	margin: 0 auto;
 	margin-bottom: 5px;
+}
+
+#history {
+	border-style: solid;
+	border-width: medium;
 }
 
 #history h3 {
@@ -148,9 +157,6 @@ and (max-width: 768px) {
 		padding: 0 20%;
 	}
 }
-
-
-/**  Page -- Staff **/
 
 #history {
 	background-color: #E4D29D;
@@ -179,7 +185,10 @@ and (max-width: 768px) {
 /**  Page -- Q and A **/
 
 #qAndA {
-	padding: 0;
+	background-color: #bab68d
+}
+#qAndA {
+	padding: 200px;
 }
 
 #qAndA h2 {
@@ -189,39 +198,33 @@ and (max-width: 768px) {
 #qAndA blockquote {
 	margin: 0;
 	padding: 0;
-	border-left: none;
-	min-height: 500px;
+	border-left: 20px;
+	min-height: 100px;
 	position: relative;
 }
 
-#qAndA blockquote .quote {
-	background-color: rgba(255,255,255,.6);
-	padding: 20px 5%;
-	position: absolute;
-	bottom: 0;
-	width: 75%;
-	font-weight: 400;
-	border-radius: 0 50px 0 0;
-}
+/*#qAndA blockquote .quote {
+  background-color: rgba(255,255,255,.6);
+  padding: 20px 5%;
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  font-weight: 400;
+  border-radius: 0 50px 0 0;
+}*/
 
 #qAndA blockquote .quote:hover {
 	background-color: rgba(239,240,196,.9);
 }
 
-#qAndA #q1 {
-	background: url(../images/parchment.jpg) no-repeat center center;
-	background-size: cover;
-}
-
-
 #qAndA .question {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	line-height: 110%;
 	font-weight: 400;
 }
 
 
-#qAndA .question .answer, #testimonials {
+#qAndA .question .answer {
 	opacity: 0;
 	font-size: 0;
 	line-height: 0;
@@ -234,14 +237,14 @@ and (max-width: 768px) {
 	font-weight: 100;
 	display: block;
 	opacity: 1;
-	font-size: .8em;
-	line-height: 120%;
+	font-size: 1.8em;
+	line-height: 140%;
 }
 
 #qAndA .question:hover {
 	display: block;
 	font-size: .7em;
-	text-align: right;
+	text-align: left;
 }
 
 #qAndA .question .question::after {
@@ -255,19 +258,12 @@ and (max-width: 768px) {
 /**  Footer **/
 
 footer {
-	background: #586D74;
+	background:  #6d3236;
 	color: white;
 	font-size: .8em;
 	padding: 20px 0 40px 0;
 }
 
-footer a {
-	color: #E0E6AE;
-}
-
-footer a:hover {
-	color: #EEC856 !important;
-}
 
 footer .phone, .email {
 	font-size: 1.4em;
