@@ -1,182 +1,279 @@
-/********************************************
-* basic html styling
-********************************************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
 
-html {
+/**  Basic Page CSS **/
+body{
+	font-family: "Roboto Slab", sans-serif;
+	font-weight: 300;
+	font-size: 2em;
 	position: relative;
-	min-height: 100%;
 }
-body {
-	margin: 0 0 100px;
-	background-color: whitesmoke;
-}
-footer {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	min-height: 100px;
-	width: 100%;
-	border-top: 1px solid black;
-}
-.jumbotron {
-	positon: relative;
-	padding: 1em;
-	border: 2px black;
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	margin: 0;
 }
-footer,
-#main-menu {
-	background-color: black;
+
+/**  Header Navigation **/
+
+header .navbar {
+	padding: 30px 0;
+	transition: all .5s ease-out;
+}
+
+header .navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+header .navbar-default .navbar-nav a {
 	color: white;
+	padding: 5px 8px;
 }
 
-.container-fluid {
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
+header .navbar-default .navbar-nav a:hover {
+	color: #EEC856;
 }
 
-#main-menu {
-	width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
+header .navbar-default .navbar-nav .active a {
+	font-weight: 700;
+	color: #EEC856;
+	background: transparent;
+	border-bottom: 4px solid #EEC856;
+	text-shadow: none;
 }
 
-.white-container {
+header .navbar-default .navbar-nav .active a:hover {
+	color: #E15D5F;
+	background: transparent;
+	text-shadow: none;
+}
+
+/**  Navbar Toggle **/
+header .navbar-toggle {
+	background-color: #279182;
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
 	background-color: white;
-	border-radius: 10px;
-	padding: 2em;
 }
 
-/**
- * form
- */
-input[type=text] {
-	padding: 0.3em;
-	padding-left: 1em;
-	border: 2px solid lightgray;
-	border-radius: 12px;
-}
-
-input[type=text]:focus {
-	outline: none;
-}
-
-
-/**
- *	bootstrap elements setup
- */
-
-
-li[role=presentation] a:hover,
-li[role=presentation] a:visited,
-li[role=presentation] a:active,
-li[role=presentation] a:focus,
-li[role=presentation].open a {
-	background-color: transparent !important;
-}
-
-#my-account-dropdown-menu {
-	background-color: darkgrey;
-}
-
-
-/********************************************
-* thumbnails
-********************************************/
-.tiny-thumbnail,
-.thumbnail img{
-	width: 50px !important;
-	height: 50px !important;
-}
-
-@media screen and (min-width: 768px) {
-	.tiny-thumbnail,
-	.thumbnail img {
-		width: 80px;
-		height: 60px;
+@media only screen
+and (max-width: 768px) {
+	header .navbar-collapse.in {
+		background-color: rgba(0,0,0, .5);
 	}
 }
 
-.thumbnail-links li {
-	display: inline-block;
-	margin-left: 1em;
-	float: right;
+/**  nav inbody **/
+
+header .inbody {
+	background: rgba(104,73,49,.9);
 }
 
-.thumbnail {
-	display: inline-block;
+header .navbar.inbody {
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
-.product-quantity {
-	max-width: 80px;
+header .navbar.inbody .navbar-nav {
+	padding-top: 10px;
 }
 
-/**
- * top main-menu
- */
-#main-menu ul.nav.nav-pills > li {
-	float: right;
+header .inbody .navbar-brand {
+	background-size: 43px;
+	background-position: top left;
+	margin-top: 5px;
+	padding-bottom: 0;
+	margin-left: 10px;
 }
 
-/*
- * utilities classes
- */
-.no-margin {
-	margin: 0 !important;
+header .inbody .navbar-brand h1 {
+	font-size: 1.1em;
+	padding-left: 38px;
 }
 
-.vertical-spacer-60 {
-	margin-top: 60px;
+header .inbody .navbar-brand span.subhead {
+	display: none;
 }
 
-.no-padding-right {
-	padding-right: 0;
+
+/** Jumbotron **/
+.jumbotron {
+	text-align: center;
+	font-family: "Roboto Slab", sans-serif;
+	margin-top: 90px;
 }
 
-.push-right {
-	float: right;
+
+/**  Page **/
+.page {
+	padding: 50px 0;
 }
 
-.center {
+.page h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/**  Page -- introduction **/
+#introduction {
+	background-color: #E4D29D;
+	background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+	border-top: 20px solid rgba(238, 200, 86, .5);
+}
+
+/**  Page -- history **/
+
+.history {
+	margin: 20px 0;
 	text-align: center;
 }
 
-.disable-color {
-	color: #e5e5e5;
-	border-color: #e5e5e5 !important;
+#history img.icon {
+	display: block;
+	width: 80px;
+	margin: 0 auto;
+	margin-bottom: 5px;
 }
 
-/********************************************
-* Headings
-********************************************/
-h2 {
-	padding: 10px 0;
+#history h3 {
+	margin-bottom: 10px;
 }
 
-h1 {
-	font-size: 1.4em;
+@media only screen
+and (min-width: 450px)
+and (max-width: 768px) {
+	.history p {
+		padding: 0 20%;
+	}
+}
+
+
+/**  Page -- Staff **/
+
+#history {
+	background-color: #E4D29D;
+	background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
+}
+
+.workPicture {
+	margin: 10px 0;
+}
+
+.workPicture h3 {
+	font-weight: 600;
+	font-size: 1.2em;
+	color: #6F4E36;
+	padding-bottom: 5px;
+}
+
+.workPicture p {
+	font-size: .8em;
+}
+
+.workPicture img {
+	width: 100%;
+}
+
+/**  Page -- Q and A **/
+
+#qAndA {
 	padding: 0;
+}
+
+#qAndA h2 {
+	display: none;
+}
+
+#qAndA blockquote {
 	margin: 0;
-}
-h2 {
-	font-size: 1.6em;
-}
-
-
-/**
- * Horizontal thumbnail
- */
-#wrapper {
+	padding: 0;
+	border-left: none;
+	min-height: 500px;
 	position: relative;
-	z-index: 1;
-	overflow: scroll;
+}
+
+#qAndA blockquote .quote {
+	background-color: rgba(255,255,255,.6);
+	padding: 20px 5%;
+	position: absolute;
+	bottom: 0;
+	width: 75%;
+	font-weight: 400;
+	border-radius: 0 50px 0 0;
+}
+
+#qAndA blockquote .quote:hover {
+	background-color: rgba(239,240,196,.9);
+}
+
+#qAndA #q1 {
+	background: url(../images/parchment.jpg) no-repeat center center;
+	background-size: cover;
 }
 
 
+#qAndA .question {
+	font-size: 1.2em;
+	line-height: 110%;
+	font-weight: 400;
+}
 
 
+#qAndA .question .answer, #testimonials {
+	opacity: 0;
+	font-size: 0;
+	line-height: 0;
+	padding-top: 10px;
+}
+
+
+#qAndA .question:hover .answer {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	display: block;
+	opacity: 1;
+	font-size: .8em;
+	line-height: 120%;
+}
+
+#qAndA .question:hover {
+	display: block;
+	font-size: .7em;
+	text-align: right;
+}
+
+#qAndA .question .question::after {
+	content: '...';
+}
+
+#qAndA .question:hover .question::after {
+	content: '';
+}
+
+/**  Footer **/
+
+footer {
+	background: #586D74;
+	color: white;
+	font-size: .8em;
+	padding: 20px 0 40px 0;
+}
+
+footer a {
+	color: #E0E6AE;
+}
+
+footer a:hover {
+	color: #EEC856 !important;
+}
+
+footer .phone, .email {
+	font-size: 1.4em;
+	font-weight: 700;
+	color: #E0E6AE;
+}
 
 
 
