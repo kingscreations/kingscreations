@@ -239,7 +239,128 @@ and (max-width: 768px) {
 	display: none;
 }
 
+/** contact **/
+.button-container {
+	margin-top: 50px;
+	padding: 30px 0;
+	text-align: center;
+}
 
+.button-container button {
+	margin: 5px;
+}
+
+/********************************************
+* Modal Window Base Styles
+********************************************/
+button.close {
+	padding: 0 5px;
+}
+/********************************************
+* Primary Page Styles
+********************************************/
+.form-wrap {
+	background-color: #E4D29D;
+	margin: 0 0 50px 0;
+	padding: 20px 0 0 0;
+}
+
+/********************************************
+* Form Styles
+********************************************/
+form {
+	/*color: #1295FF;*/
+	color: #fff;
+}
+
+.form-group {
+	border-bottom: 1px solid #111;
+	padding-bottom: 25px;
+}
+
+.form-group:last-child {
+	border: none;
+	margin-top: 20px;
+}
+
+label {
+	font-weight: 400;
+}
+
+.control-label {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.4em;
+	font-weight: 300;
+	padding-bottom: 4px;
+	text-align: left !important;
+}
+
+.input-group-addon {
+	border-radius: 0 !important;
+	background: none;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.help-block {
+	color: #ddd;
+	font-size: 0.85em;
+	margin-top: 0;
+}
+
+/********************************************
+* Input Field Styles
+********************************************/
+.btn {
+	background: none;
+	border-color: #fff;
+	border-radius: 0;
+	box-shadow: none;
+	color: #fff;
+	text-shadow: none;
+	transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	-webkit-transition: all 250ms ease;
+}
+
+.btn:hover,
+.btn:focus {
+	background: #fff;
+	border-color: #ccc;
+	box-shadow: none;
+	color: #000;
+}
+
+input.form-control,
+textarea.form-control,
+select.form-control {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 0;
+	color: #fff;
+}
+
+option {
+	color: #000;
+	background-color: #fff;
+	padding: 5px;
+}
+
+.no-option {
+	background: #dddddd;
+}
+/********************************************
+* Modal Window Content Styles
+********************************************/
+.modal-body .form-group {
+	margin-right: 10px;
+}
+
+.modal-footer-text {
+	text-align: left;
+}
 /**  Footer **/
 
 footer {

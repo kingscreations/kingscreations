@@ -67,7 +67,16 @@ $(function() {
 				$(this).closest('.faq').addClass('open');
 			}
 		});
-
+		// contact me modal button settings
+		$('#modal-lg').on('shown.bs.modal', function () {
+			$('#firstName #lastName #email #txtAreaComments').focus()
+		})
+		/**
+		 * this resets all form fields when the "Reset" button is clicked.
+		 **/
+		$("#reset-form").click(function() {
+			document.getElementById("sample-form").reset();
+		});
 	});
 
 });

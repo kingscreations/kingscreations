@@ -8,6 +8,9 @@
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/prefixfree.min.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/additional-methods.min.js"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 		<script src="js/myscript.js"></script>
 		<title>King's Creations</title>
@@ -163,9 +166,101 @@
 				</div><!-- container -->
 			</div><!-- Q and A page -->
 		</div><!-- main -->
-		<div class="faq_container">
 
-		</div>
+		<div class="page" id="contact">
+			<div class="container" id="contact">
+				<div class="col-sm-3">
+					<div class="container">
+						<!-- modal trigger buttons contained here -->
+						<div class="button-container">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal-lg">Contact Me</button>
+						</div>
+						<div class="modal fade" id="modal-lg" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true" data-keyboard="true">
+							<div class="modal-dialog modal-lg">
+								<!-- Begin modal content here -->
+								<div class="modal-content">
+									<div class="modal-header">
+										<!-- close button -->
+										<button type="button" class="close" data-dismiss="modal" aria-label="close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<h3 class="modal-title">I would appreciate hearing from you!</h3>
+									</div>
+									<div class="modal-body">
+										<p>I thank you for visiting my site. I ask you to please fill out the form below. Your information will remain confidential and I will get back to you as soon as possible. Please feel free to leave a message as well in the provided text box.</p>
+
+
+
+
+									</div><!-- modal body-->
+
+									<div class="modal-footer">
+									</div><!--modal footer-->
+									<main class="container">
+										<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
+										<div class="col-xs-12 col-md-6 form-wrap">
+											<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
+											<form method="get" action="#" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
+
+												<div class="form-group">
+													<!-- Labels for each field are places within a <label> tag. Use the "for" attribute. the class="control-label" is for styling. -->
+													<label for="inputFirstName" class="control-label">First Name</label>
+													<!-- the div class="input-group" contains both the text field and the icon to the left -->
+													<div class="input-group">
+														<!-- this div and span contains the glyphicon to the left. aria-hidden is so that screen readers don't read this element -->
+														<div class="input-group-addon">
+															<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+														</div>
+														<!-- text field input. pay attention to the id, placeholder text, type, and placeholder attributes -->
+														<input type="text" class="form-control" id="firstName" placeholder="Your first name here." maxlength="150" />
+													</div>
+												</div>
+												<div class="form-group">
+													<!-- Labels for each field are places within a <label> tag. Use the "for" attribute. the class="control-label" is for styling. -->
+													<label for="inputLastName" class="control-label">Last Name</label>
+													<!-- the div class="input-group" contains both the text field and the icon to the left -->
+													<div class="input-group">
+														<!-- this div and span contains the glyphicon to the left. aria-hidden is so that screen readers don't read this element -->
+														<div class="input-group-addon">
+															<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+														</div>
+														<!-- text field input. pay attention to the id, placeholder text, type, and placeholder attributes -->
+														<input type="text" class="form-control" id="lastName" placeholder="Your last name here." maxlength="150" />
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="email1" class="control-label">Your Email</label>
+													<div class="input-group">
+														<div class="input-group-addon">
+															<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+														</div>
+														<input type="email" id="email" class="form-control" maxlength="150" placeholder="your.email@something.com"/>
+													</div>
+												</div>
+
+
+												<div class="form-group">
+													<label class="control-label" for="txtareaComments">I Welcome any Comments:</label>
+													<textarea class="form-control" rows="5" id="txtAreaComments" maxlength="500" placeholder="500 characters max."></textarea>
+												</div>
+
+												<div class="form-group">
+													<!-- the following <a> tag has been styled as a button with class="btn" -->
+													<a id="reset-form" class="btn" role="button">Reset Form</a>
+													<button type="submit" class="btn">Send Email</button>
+												</div>
+											</form>
+										</div> <!-- CLOSE FORM WRAP -->
+									</main>
+								</div><!-- modal-content -->
+							</div><<!-- modal-dialog modal-lg -->
+						</div><!-- modal fade -->
+					</div><!-- container -->
+
+				</div><!-- col-sm-3 -->
+
+			</div> <!-- container-->
+		</div><!-- contact page-->
 
 		<footer>
 			<div class="content container-fluid">
@@ -174,6 +269,7 @@
 						<p>Contact me at <span class="phone">719-696-1772</span></p>
 						<p> or email me at <span class="email">jason@kingscreations.org</span></p>
 					</div><!-- col-sm-6 -->
+
 				</div><!-- row -->
 			</div><!-- content container -->
 		</footer>
