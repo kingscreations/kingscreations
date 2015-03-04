@@ -3,14 +3,14 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title>King's Creations</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/prefixfree.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 		<script src="js/myscript.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>King's Creations</title>
 	</head>
 
 	<body>
@@ -102,51 +102,70 @@
 			</div><!-- history page -->
 
 			<div class="page" id="qAndA">
-				<div class="container-fluid">
+				<div class="container" id="parchment">
 					<h2>Q and A</h2>
-					<div class="row">
-						<blockquote class="col-sm-12" id="q1">
-							<div class="quote">
-								<span class="question">great big question. very deep...philosophical perhaps?</span>
-								<span class="answer">pause for consideration. nod. strike an intellectual pose. Maybe have an old fashioned pipe and a really cool hat. say: blah, blah, blah, pause for emphasis...blah. Repeat as needed.</span>
+					<!-- Question -->
+					<div class="faq ">
+						<div class="faq_question">
+							<p>great big question. very deep...philosophical perhaps?</p>
+						</div>
+						<div class="faq_answer_container">
+							<div class="faq_answer">
+								<p>pause for consideration. nod. strike an intellectual pose. Maybe have an old fashioned pipe and a really cool hat. say: blah, blah, blah, pause for emphasis...blah. Repeat as needed.</p>
 							</div>
-						</blockquote>
+						</div>
 					</div>
-					<div class="row">
-						<blockquote class="col-sm-12" id="q2">
-							<div class="quote">
-								<span class="question">Why choose Web Development as a career?</span>
-								<span class="answer">I chose full stack development for two main reasons: I am attracted to front end because it opens new doors of creative possibilities. My attraction to back end is based in a love of logic and problem solving. And quite honestly, money!</span>
+					<!-- Question -->
+					<div class="faq">
+						<div class="faq_question">
+							<p>Why choose Web Development as a career?</p>
+						</div>
+						<div class="faq_answer_container">
+							<div class="faq_answer">
+								<p>I chose full stack development for two main reasons: I am attracted to front end because it opens new doors of creative possibilities. My attraction to back end is based in a love of logic and problem solving. And quite honestly, money!</p>
 							</div>
-						</blockquote>
+						</div>
 					</div>
-					<div class="row">
-						<blockquote class="col-sm-12" id="q3">
-							<div class="quote">
-								<span class="question">What are your most attractive attributes as a potential employee?</span>
-								<span class="answer">My 11 years of military taught me teamwork, integrity, and leadership. My 15 years of construction have left me with a strong work ethic, customer service, and a commitment to quality. After 16 years of woodworking I have gained in humility, creativity, and a care for detail. My time with Symphony seed paper has given me the opportunity to put my leadership training and experience to use-improving an existing business in our community. </span>
+					<!-- Question -->
+					<div class="faq">
+						<div class="faq_question">
+							<p>What are your most attractive attributes as a potential employee?</p>
+						</div>
+						<div class="faq_answer_container">
+							<div class="faq_answer">
+								<p>My 11 years of military taught me teamwork, integrity, and leadership. My 15 years of construction have left me with a strong work ethic, customer service, and a commitment to quality. After 16 years of woodworking I have gained in humility, creativity, and a care for detail. My time with Symphony seed paper has given me the opportunity to put my leadership training and experience to use-improving an existing business in our community</p>
 							</div>
-						</blockquote>
+						</div>
 					</div>
-					<div class="row">
-						<blockquote class="col-sm-12" id="q4">
-							<div class="quote">
-								<span class="question">What is the main thing you've learned at Deep Dive Coders Bootcamp?</span>
-								<span class="answer">Star Trek is the greatest! and Arlo is a cat (I think.) </span>
+					<!-- Question -->
+					<div class="faq">
+						<div class="faq_question">
+							<p>What is the main thing you've learned at Deep Dive Coders Bootcamp?</p>
+						</div>
+						<div class="faq_answer_container">
+							<div class="faq_answer">
+								<p>Star Trek is the greatest! and Arlo is a cat (I think.) </p>
 							</div>
-						</blockquote>
+						</div>
 					</div>
-					<div class="row">
-						<blockquote class="col-sm-12" id="q5">
-							<div class="quote">
-								<span class="question">What is the Meaning of life?</span>
-								<span class="answer">say "hmmm..." drag it out, maybe raise an eyebrow and stare into distance. Take out your pipe with left hand and remove glasses dramaticaly with your right. Tilt your head to the side, and in a deep voice say "peanut butter". or maybe "purple cows fly fast on Tuesday. Your choice.</span>
+					<!-- Question -->
+					<div class="faq">
+						<div class="faq_question">
+							<p>What is the Meaning of life?</p>
+						</div>
+						<div class="faq_answer_container">
+							<div class="faq_answer">
+								<p>say "hmmm..." drag it out, maybe raise an eyebrow and stare into distance. Take out your pipe with left hand and remove glasses dramaticaly with your right. Tilt your head to the side, and in a deep voice say "peanut butter". or maybe "purple cows fly fast on Tuesday. Your choice.</p>
 							</div>
-						</blockquote>
+						</div>
 					</div>
+
 				</div><!-- container -->
 			</div><!-- Q and A page -->
 		</div><!-- main -->
+		<div class="faq_container">
+
+		</div>
 
 		<footer>
 			<div class="content container-fluid">
