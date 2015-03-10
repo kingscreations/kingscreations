@@ -40,11 +40,17 @@
 					</div><!-- collapse navbar-collapse -->
 				</div><!-- container -->
 			</nav>
-			<div class="jumbotron">
-				<h1>Kings Creation's </br>
-					Web Development</h1>
-			</div><!-- jumbotron-->
 
+			<div class="container-fluid id=welcome">
+				<div class="jumbotron img-responsive">
+									<div class="row">
+										<div class="img-responsive">
+					<h1>King's Creations </br>
+						Web Development</h1>
+										</div>
+									</div>
+				</div>	<!-- jumbotron-->
+			</div>
 		</header>
 
 		<div class="main">
@@ -52,8 +58,8 @@
 				<div class="content container">
 					<h2>Introduction</h2>
 					<div class="row">
-						<p class="col-md-5 col-md-offset-1">My Name is Jason King. I know a great lotta stuff... everything except web design. Im pretty sure Im clueless at that. I can pretend though. Im really good at that. I once convinced a nun I was an alien from another planet..</p>
-						<p class="col-md-5">Im a lumberjack and Im OK, I sleep all night, work all day. I chop down trees, I fish and hunt... I like to press wild flowers. I put on womens clothing, and hang around in bars...just like my dear maa maa./p>
+						<p class="col-md-5 col-md-offset-1">My 11 years of military taught me teamwork, integrity, and leadership. My 15 years of construction have left me with a strong work ethic, customer service, and a commitment to quality.After 16 years of woodworking I have gained in humility, creativity, and a care for detail.  </p>
+						<p class="col-md-5">My time with Symphony Seed Paper gave me the opportunity to put my leadership training and experience to use-improving an existing business in our community. I look forward to applying my years of experience to my career as a web developer. I anticipate the challenges in this new horizon.</p>
 					</div><!-- row -->
 				</div><!-- content container -->
 			</div><!-- introduction page -->
@@ -68,8 +74,12 @@
 									<img class="img-circle" src="images/woodshop.jpg" alt="Photo of a woodshop">
 								</div><!-- photo -->
 								<div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
-									<h3>King's Creations Fine Furniture and Construction</h3>
-									<p>For a very long time I made furniture and fixed houses. Not sure why they are grouped together. Most carpenters wouldn't know how to start a bandsaw, much less keep all 11 fingers.</p>
+									<h3>Alpha Omega Fine Furniture and Construction</h3>
+									<h4>Residential contractor, specialized in custom woodworking products and custom decks</h4>
+									<ul class="a">
+										<li>Awarded First Place and Best of Show in expert division at 2012 New Mexico Fine Arts competition.</li>
+										<li>Served more than 120 customers; quality and efficiency led to high rates of repeat business.</li>
+									</ul>
 								</div><!-- info -->
 							</div> <!-- inner row -->
 						</div> <!-- workPicture -->
@@ -82,7 +92,12 @@
 								</div><!-- photo -->
 								<div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
 									<h3>Symphony Seed Paper</h3>
-									<p>I made handmade paper with hooligans. To show we were really tough we put seeds inside the paper and sprinkled the outside with glitter. It was a very happy place.</p>
+									<h4>Production supervisor in charge of quality assurance, assembly line fabrication and maintenance, overseeing employees, hiring/firing, training, and hands on production.  Skilled at maintaining supply chains, records, and tracking production trends.  Experience with payroll, shipping and receiving, scheduling sub-contractors. Strong focus on customer satisfaction.</h4>
+									<ul class="a">
+										<li> Increased employee output by 47%, with annual savings of $200,000, by streamlining production efficiency.</li>
+										<li> Eliminated excess waste during the production process, improving output an additional 15%,</li>
+										<li> Developed proposal to increase total product output by 300% with a minimum expenditure.</li>
+									</ul>
 								</div><!-- info -->
 							</div> <!-- inner row -->
 						</div> <!-- workPicture -->
@@ -95,7 +110,15 @@
 								</div><!-- photo -->
 								<div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
 									<h3>US Air Force</h3>
-									<p>I was in the Air Force. A long long time ago. In fact, it was before they had invented air planes. We used to run around the air strip pretending we were flying. It was great fun.</p>
+									<h4>Airfield Management Specialist. -Supervised more than 20 airfield technicians.  Oversaw flight planning, emergency response, and airfield maintenance to ensure overall flight line functionality and safety.</h4>
+									<ul class="a">
+										<li> 1995 NCO of the Quarter Award</li>
+										<li> Three Good Conduct Medals, US Air Force</li>
+										<li> Two Achievement Medals, US Air Force</li>
+										<li> Outstanding Unit Award</li>
+										<li> National Defense Service Medal</li>
+										<li> Two NCO Professional Military Education Ribbons</li>
+									</ul>
 								</div><!-- info -->
 
 							</div> <!-- inner row -->
