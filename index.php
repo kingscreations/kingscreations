@@ -58,8 +58,17 @@
 				<div class="content container">
 					<h2>Introduction</h2>
 					<div class="row">
-						<p class="col-md-5 col-md-offset-1">My 11 years of military taught me teamwork, integrity, and leadership. My 15 years of construction have left me with a strong work ethic, customer service, and a commitment to quality.After 16 years of woodworking I have gained in humility, creativity, and a care for detail.  </p>
-						<p class="col-md-5">My time with Symphony Seed Paper gave me the opportunity to put my leadership training and experience to use-improving an existing business in our community. I look forward to applying my years of experience to my career as a web developer. I anticipate the challenges in this new horizon.</p>
+						<p class="col-md-5 col-md-offset-1">I am a I look forward to applying my years of experience to my career as a web developer. I anticipate the challenges in this new horizon.
+						<ul class="a">
+							<li>Full Stack Web Development
+							<li>PHP, MySQL, JavaScript, JQuery, Ajax,  CSS3, Bootstrap3, HTML5, OOP, Simple Test,         FUNC Unit Testing and cyber security</li>
+							<li>Scheduling and Training</li>
+							<li>Production Supervision</li>
+							<li>Shipping and Receiving</li>
+							<li>Assembly Line Design</li>
+							<li>Creation and implementation of operational and safety procedures</li>
+						</p>
+						<p class="col-md-5">My twenty five years of experience in business operations have made me a detail-oriented manager accomplished in problem solving and design, known for creativity and integrity.  Knowledgeable of:</p>
 					</div><!-- row -->
 				</div><!-- content container -->
 			</div><!-- introduction page -->
