@@ -31,7 +31,7 @@
 					</div><!-- navbar-header -->
 					<div class="collapse navbar-collapse" id="collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="#featured">Home</a></li>
+							<li class="active"><a href="#welcome">Home</a></li>
 							<li><a href="#introduction">Introduction</a></li>
 							<li><a href="#history">history</a></li>
 							<li><a href="#qAndA">Q and A</a></li>
@@ -58,17 +58,10 @@
 				<div class="content container">
 					<h2>Introduction</h2>
 					<div class="row">
-						<p class="col-md-5 col-md-offset-1">I am a I look forward to applying my years of experience to my career as a web developer. I anticipate the challenges in this new horizon.
-						<ul class="a">
-							<li>Full Stack Web Development
-							<li>PHP, MySQL, JavaScript, JQuery, Ajax,  CSS3, Bootstrap3, HTML5, OOP, Simple Test,         FUNC Unit Testing and cyber security</li>
-							<li>Scheduling and Training</li>
-							<li>Production Supervision</li>
-							<li>Shipping and Receiving</li>
-							<li>Assembly Line Design</li>
-							<li>Creation and implementation of operational and safety procedures</li>
-						</p>
-						<p class="col-md-5">My twenty five years of experience in business operations have made me a detail-oriented manager accomplished in problem solving and design, known for creativity and integrity.  Knowledgeable of:</p>
+						<p class="col-md-5 ">As a recent graduate of the Deep Dive Coding Bootcamp, I look forward to applying my previous experiences to this new horizon of web development. As I enter the marketplace I anticipate the challenges that will come. I plan on approaching each of them with tenacity and an ever present drive to improve myself and those I work with.</p>
+						<p class="col-md-5 col-md-offset-2">My web development tools:</p>
+							<ul class="a">
+								<li>PHP, MySQL, JavaScript, JQuery, Ajax,  CSS3, Bootstrap3, HTML5, OOP, Simple Test,         FUNC Unit Testing and cyber security</li>
 					</div><!-- row -->
 				</div><!-- content container -->
 			</div><!-- introduction page -->
@@ -219,7 +212,7 @@
 										<h3 class="modal-title">I would appreciate hearing from you!</h3>
 									</div>
 									<div class="modal-body">
-										<p>I thank you for visiting my site. I ask you to please fill out the form below. Your information will remain confidential and I will get back to you as soon as possible. Please feel free to leave a message as well in the provided text box.</p>
+										<p>I thank you for visiting my site. I ask you to please fill out the form below. Your information will remain confidential and I will get back to you as soon as possible. Please feel free to leave a message in the provided text box as well. Any feedback is welcome!</p>
 
 
 
@@ -272,7 +265,7 @@
 
 
 												<div class="form-group">
-													<label class="control-label" for="txtareaComments">I Welcome any Comments:</label>
+													<label class="control-label" for="txtareaComments">Comments:</label>
 													<textarea class="form-control" rows="5" id="txtAreaComments" maxlength="500" placeholder="500 characters max."></textarea>
 												</div>
 
