@@ -58,10 +58,20 @@
 				<div class="content container">
 					<h2>Introduction</h2>
 					<div class="row">
-						<p class="col-md-5 ">As a recent graduate of the Deep Dive Coding Bootcamp, I look forward to applying my previous experiences to this new horizon of web development. As I enter the marketplace I anticipate the challenges that will come. I plan on approaching each of them with tenacity and an ever present drive to improve myself and those I work with.</p>
-						<p class="col-md-5 col-md-offset-2">My web development tools:</p>
+						<div class="col-md-5">
+						<p>As a recent graduate of the Deep Dive Coding Bootcamp, I look forward to applying my previous experiences to this new horizon of web development. As I enter the marketplace I anticipate the challenges that will come. I plan on approaching each of them with tenacity and an ever present drive to improve myself and those I work with.</p>
+						</div>
+						<div class="col-md-5">
+						<p>My web development tools include:</p>
 							<ul class="a">
-								<li>PHP, MySQL, JavaScript, JQuery, Ajax,  CSS3, Bootstrap3, HTML5, OOP, Simple Test,         FUNC Unit Testing and cyber security</li>
+								<li>PHP & MySQL,</li>
+								<li>JavaScript, JQuery & Ajax,</li>
+								<li>CSS3, Bootstrap3 & HTML5,</li>
+								<li>OOP,</li>
+								<li>Simple Test & FUNC Unit Testing</li>
+								<li>cyber security</li>
+							</ul>
+						</div>
 					</div><!-- row -->
 				</div><!-- content container -->
 			</div><!-- introduction page -->
@@ -133,16 +143,16 @@
 				<div class="container" id="parchment">
 					<h2>Q and A</h2>
 					<!-- Question -->
-					<div class="faq ">
-						<div class="faq_question">
-							<p>great big question. very deep...philosophical perhaps?</p>
-						</div>
-						<div class="faq_answer_container">
-							<div class="faq_answer">
-								<p>pause for consideration. nod. strike an intellectual pose. Maybe have an old fashioned pipe and a really cool hat. say: blah, blah, blah, pause for emphasis...blah. Repeat as needed.</p>
-							</div>
-						</div>
-					</div>
+<!--					<div class="faq ">-->
+<!--						<div class="faq_question">-->
+<!--							<p>great big question. very deep...philosophical perhaps?</p>-->
+<!--						</div>-->
+<!--						<div class="faq_answer_container">-->
+<!--							<div class="faq_answer">-->
+<!--								<p>pause for consideration. nod. strike an intellectual pose. Maybe have an old fashioned pipe and a really cool hat. say: blah, blah, blah, pause for emphasis...blah. Repeat as needed.</p>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
 					<!-- Question -->
 					<div class="faq">
 						<div class="faq_question">
@@ -150,7 +160,7 @@
 						</div>
 						<div class="faq_answer_container">
 							<div class="faq_answer">
-								<p>I chose full stack development for two main reasons: I am attracted to front end because it opens new doors of creative possibilities. My attraction to back end is based in a love of logic and problem solving. And quite honestly, money!</p>
+								<p>I chose full stack development for two main reasons: I am attracted to front end because it opens new doors of creative possibilities. My attraction to back end is based in a love of logic and problem solving.</p>
 							</div>
 						</div>
 					</div>
@@ -168,25 +178,25 @@
 					<!-- Question -->
 					<div class="faq">
 						<div class="faq_question">
-							<p>What is the main thing you've learned at Deep Dive Coders Bootcamp?</p>
+							<p>What is the most important thing you've gained from your Coding Bootcamp?</p>
 						</div>
 						<div class="faq_answer_container">
 							<div class="faq_answer">
-								<p>Star Trek is the greatest! and Arlo is a cat (I think.) </p>
+								<p>Tenacity. No easy answers were given. We were encouraged to find our own solutions, thereby teaching us our most valuable lesson: How to learn.</p>
 							</div>
 						</div>
 					</div>
 					<!-- Question -->
-					<div class="faq">
-						<div class="faq_question">
-							<p>What is the Meaning of life?</p>
-						</div>
-						<div class="faq_answer_container">
-							<div class="faq_answer">
-								<p>say "hmmm..." drag it out, maybe raise an eyebrow and stare into distance. Take out your pipe with left hand and remove glasses dramaticaly with your right. Tilt your head to the side, and in a deep voice say "peanut butter". or maybe "purple cows fly fast on Tuesday. Your choice.</p>
-							</div>
-						</div>
-					</div>
+<!--					<div class="faq">-->
+<!--						<div class="faq_question">-->
+<!--							<p>What is the Meaning of life?</p>-->
+<!--						</div>-->
+<!--						<div class="faq_answer_container">-->
+<!--							<div class="faq_answer">-->
+<!--								<p>say "hmmm..." drag it out, maybe raise an eyebrow and stare into distance. Take out your pipe with left hand and remove glasses dramaticaly with your right. Tilt your head to the side, and in a deep voice say "peanut butter". or maybe "purple cows fly fast on Tuesday. Your choice.</p>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
 
 				</div><!-- container -->
 			</div><!-- Q and A page -->
@@ -198,7 +208,7 @@
 					<div class="container">
 						<!-- modal trigger buttons contained here -->
 						<div class="button-container">
-							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal-lg">Contact Me</button>
+							<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#modal-lg">Contact Me</button>
 						</div>
 						<div class="modal fade" id="modal-lg" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true" data-keyboard="true">
 							<div class="modal-dialog modal-lg">
@@ -212,7 +222,7 @@
 										<h3 class="modal-title">I would appreciate hearing from you!</h3>
 									</div>
 									<div class="modal-body">
-										<p>I thank you for visiting my site. I ask you to please fill out the form below. Your information will remain confidential and I will get back to you as soon as possible. Please feel free to leave a message in the provided text box as well. Any feedback is welcome!</p>
+										<p>I thank you for visiting my site. I ask you to please fill out the form below. Your information will remain confidential and I will get back to you as soon as possible. Please feel free to leave a message in the comments box as well. Any feedback is welcome!</p>
 
 
 
@@ -225,7 +235,7 @@
 										<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
 										<div class="col-xs-12 col-md-6 form-wrap">
 											<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
-											<form method="get" action="#" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
+											<form method="get" action="#" id="contactForm" class="form-horizontal col-xs-10 col-xs-offset-1">
 
 												<div class="form-group">
 													<!-- Labels for each field are places within a <label> tag. Use the "for" attribute. the class="control-label" is for styling. -->
@@ -274,6 +284,7 @@
 													<a id="reset-form" class="btn" role="button">Reset Form</a>
 													<button type="submit" class="btn">Send Email</button>
 												</div>
+												<p id="outputArea"></p>
 											</form>
 										</div> <!-- CLOSE FORM WRAP -->
 									</main>
@@ -300,3 +311,5 @@
 		</footer>
 	</body>
 </html>
+
+<script src="/js/myscript.js"></script>

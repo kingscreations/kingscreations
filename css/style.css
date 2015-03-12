@@ -315,13 +315,13 @@ label {
 * Input Field Styles
 ********************************************/
 .btn {
-	background: none;
-	border-color: #fff;
-	border-radius: 0;
-	box-shadow: none;
-	color: #fff;
+	background: transparent none repeat scroll 0% 0%;
+	border-color: #6d3236;
+	border-radius: 0px;
+	box-shadow: 5px 5px 5px;
+	color: #6d3236;
 	text-shadow: none;
-	transition: all 250ms ease;
+	transition: all 250ms ease 0s;
 	-moz-transition: all 250ms ease;
 	-ms-transition: all 250ms ease;
 	-o-transition: all 250ms ease;
