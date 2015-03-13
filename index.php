@@ -15,7 +15,7 @@
 		<script src="js/myscript.js"></script>
 		<title>King's Creations</title>
 	</head>
-
+	<script type="text/javascript" src="includes/jquery-1.11.1.min.js"></script>
 	<body>
 
 		<header>
@@ -141,61 +141,30 @@
 
 			<div class="page" id="qAndA">
 				<div class="container" id="parchment">
-					<h2>Q and A</h2>
-					<!-- Question -->
-<!--					<div class="faq ">-->
-<!--						<div class="faq_question">-->
-<!--							<p>great big question. very deep...philosophical perhaps?</p>-->
-<!--						</div>-->
-<!--						<div class="faq_answer_container">-->
-<!--							<div class="faq_answer">-->
-<!--								<p>pause for consideration. nod. strike an intellectual pose. Maybe have an old fashioned pipe and a really cool hat. say: blah, blah, blah, pause for emphasis...blah. Repeat as needed.</p>-->
-<!--							</div>-->
-<!--						</div>-->
+					<h2><span class="dropcap">Q</span> and <span class="dropcap">A</span></h2>
+					<div class="question" id="question1">
+						<p><span class="dropcap">Q:</span> Why choose Web Development as a career?</p>
+					</div>
+					<div class="answer" id="answer1">
+						<p><span class="dropcap">A:</span> I chose full stack development for two main reasons: I am attracted to front end because it opens new doors of creative possibilities. My attraction to back end is based in a love of logic and problem solving.</p>
+					</div>
+					<div class="question" id="question2">
+						<p><span class="dropcap">Q:</span> What are your most attractive attributes as a potential employee?</p>
+					</div>
+					<div class="answer" id="answer2">
+						<p><span class="dropcap">A:</span> My 11 years of military taught me teamwork, integrity, and leadership. My 15 years of construction have left me with a strong work ethic, customer service, and a commitment to quality. After 16 years of woodworking I have gained in humility, creativity, and a care for detail. My time with Symphony seed paper has given me the opportunity to put my leadership training and experience to use-improving an existing business in our community</p>
+					</div>
+					<div class="question" id="question3">
+						<p><span class="dropcap">Q:</span> What is the most important thing you've gained from your Coding Bootcamp?</p>
+					</div>
+					<div class="answer" id="answer3">
+						<p><span class="dropcap">A:</span> Tenacity. No easy answers were given. We were encouraged to find our own solutions, thereby teaching us our most valuable lesson: How to learn. </p>
+					</div>
+<!--					<div class="question" id="question4">-->
+<!--						<p><span class="dropcap">Q:</span>  </p>-->
 <!--					</div>-->
-					<!-- Question -->
-					<div class="faq">
-						<div class="faq_question">
-							<p>Why choose Web Development as a career?</p>
-						</div>
-						<div class="faq_answer_container">
-							<div class="faq_answer">
-								<p>I chose full stack development for two main reasons: I am attracted to front end because it opens new doors of creative possibilities. My attraction to back end is based in a love of logic and problem solving.</p>
-							</div>
-						</div>
-					</div>
-					<!-- Question -->
-					<div class="faq">
-						<div class="faq_question">
-							<p>What are your most attractive attributes as a potential employee?</p>
-						</div>
-						<div class="faq_answer_container">
-							<div class="faq_answer">
-								<p>My 11 years of military taught me teamwork, integrity, and leadership. My 15 years of construction have left me with a strong work ethic, customer service, and a commitment to quality. After 16 years of woodworking I have gained in humility, creativity, and a care for detail. My time with Symphony seed paper has given me the opportunity to put my leadership training and experience to use-improving an existing business in our community</p>
-							</div>
-						</div>
-					</div>
-					<!-- Question -->
-					<div class="faq">
-						<div class="faq_question">
-							<p>What is the most important thing you've gained from your Coding Bootcamp?</p>
-						</div>
-						<div class="faq_answer_container">
-							<div class="faq_answer">
-								<p>Tenacity. No easy answers were given. We were encouraged to find our own solutions, thereby teaching us our most valuable lesson: How to learn.</p>
-							</div>
-						</div>
-					</div>
-					<!-- Question -->
-<!--					<div class="faq">-->
-<!--						<div class="faq_question">-->
-<!--							<p>What is the Meaning of life?</p>-->
-<!--						</div>-->
-<!--						<div class="faq_answer_container">-->
-<!--							<div class="faq_answer">-->
-<!--								<p>say "hmmm..." drag it out, maybe raise an eyebrow and stare into distance. Take out your pipe with left hand and remove glasses dramaticaly with your right. Tilt your head to the side, and in a deep voice say "peanut butter". or maybe "purple cows fly fast on Tuesday. Your choice.</p>-->
-<!--							</div>-->
-<!--						</div>-->
+<!--					<div class="answer" id="answer4">-->
+<!--						<p><span class="dropcap">A:</span>  </p>-->
 <!--					</div>-->
 
 				</div><!-- container -->
@@ -311,5 +280,3 @@
 		</footer>
 	</body>
 </html>
-
-<script src="/js/myscript.js"></script>

@@ -2,7 +2,7 @@
 
 /**  Basic Page CSS **/
 body{
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	font-size: 2em;
 	position: relative;
@@ -133,7 +133,7 @@ header .inbody .navbar-brand span.subhead {
 /**  Page -- history **/
 
 .history {
-	margin: 20px 0;
+	margin: 20px;
 	text-align: center;
 }
 
@@ -187,7 +187,39 @@ and (max-width: 768px) {
 
 /**  Q and A **/
 #parchment {
-	background: url(../images/parchment.jpg) 0em 0em;
+	background: url(../images/parchment.jpg) no-repeat top center;
+}
+.question {
+margin-left: 50px;
+	font-family: cursive;
+
+}
+
+.answer {
+margin-left: 80px;
+margin-bottom: 35px;
+margin-right: 80px;
+font-family: cursive;
+}
+
+#question1 {
+
+}
+
+#answer1,
+#answer2,
+#answer3,
+#answer4 {
+	display: none;
+
+}
+
+.dropcap {
+	font-family: times;
+	font-size: 1.8em;
+	margin-right: 5px;
+	font-style: italic;
+
 }
 
 .faq_container {
@@ -213,7 +245,7 @@ and (max-width: 768px) {
 
 .faq_answer_container {
 	height: 0px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	padding: 0px;
 	color: #bf572c;
 }
